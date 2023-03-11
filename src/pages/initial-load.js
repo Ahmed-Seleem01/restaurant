@@ -1,5 +1,5 @@
-import MyImage from "./a.jpg";
-import "./style.scss";
+import MyImage from "../assets/a.jpg";
+import "../assets/style.scss";
 
 const initialPageLoad = function initialPageLoad(mainElement) {
   // Create heading

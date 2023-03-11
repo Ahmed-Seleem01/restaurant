@@ -1,6 +1,6 @@
-import { initialPageLoad } from "./initial-load";
-import { menuSection } from "./menu-page";
-import { contactSection } from "./contact-page";
+import { initialPageLoad } from "./pages/initial-load";
+import { menuSection } from "./pages/menu-page";
+import { contactSection } from "./pages/contact-page";
 
 const content = document.querySelector("#content");
 initialPageLoad(content);
