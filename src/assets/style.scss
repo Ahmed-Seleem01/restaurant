@@ -1,5 +1,8 @@
 $btn-color: rgb(234, 234, 234);
 
+body{
+  background-color: rgb(241, 244, 246);
+}
 .page-buttons{
   display: flex;
   justify-content: center;
@@ -24,3 +27,21 @@ $btn-color: rgb(234, 234, 234);
     }   
   }
 }
+
+#content{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  h1{
+    margin-bottom: 30px;
+  }
+  img{
+    border-radius: 20px;
+  }
+  p{
+    font-size: 1.1rem;
+  }
+}
+
