@@ -30,7 +30,7 @@ const menuSection = function contactSection(mainElement) {
   };
 
   menu.appendChild(heading);
-  menu.appendChild(buildMenu());
+  menu.appendChild(buildMenu("meat", "it is delecious", "5"));
   menu.appendChild(buildMenu());
 
   mainElement.appendChild(menu);
