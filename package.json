@@ -1,0 +1,30 @@
+{
+  "name": "resturant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-Seleem01/resturant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed-Seleem01/resturant/issues"
+  },
+  "homepage": "https://github.com/Ahmed-Seleem01/resturant#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "sass": "^1.59.2",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
