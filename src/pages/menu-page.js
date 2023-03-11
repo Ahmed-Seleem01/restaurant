@@ -32,8 +32,13 @@ const menuSection = function contactSection(mainElement) {
   };
 
   menu.appendChild(heading);
-  menu.appendChild(buildMenu("meat", "it is delecious", "5"));
-  menu.appendChild(buildMenu());
+  menu.appendChild(buildMenu("meat", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit pellentesque habitant morbi tristique senectus.", "20"));
+
+  menu.appendChild(buildMenu("ABC", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit pellentesque habitant morbi tristique senectus.", "10"));
+
+  menu.appendChild(buildMenu("Candy", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit pellentesque habitant morbi tristique senectus.", "5"));
+
+  menu.appendChild(buildMenu("Juice", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit pellentesque habitant morbi tristique senectus.", "7"));
 
   mainElement.appendChild(menu);
 };
