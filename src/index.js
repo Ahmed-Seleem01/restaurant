@@ -1,6 +1,7 @@
 import { initialPageLoad } from "./pages/initial-load";
 import { menuSection } from "./pages/menu-page";
 import { contactSection } from "./pages/contact-page";
+import "./assets/normalize.css";
 
 const content = document.querySelector("#content");
 initialPageLoad(content);

@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Ahmed-Seleem01/resturant#readme",
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "normalize.css": "^8.0.1",
     "sass": "^1.59.2",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
