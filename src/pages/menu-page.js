@@ -14,6 +14,7 @@ const menuSection = function contactSection(mainElement) {
     menuInfo.appendChild(smallHeading);
 
     const anotherDiv = document.createElement("div");
+    const childDiv = document.createElement("div");
     const description = document.createElement("p");
     description.textContent = descriptionText;
     const price = document.createElement("p");
@@ -21,8 +22,9 @@ const menuSection = function contactSection(mainElement) {
     const image = document.createElement("img");
     image.src = imageUrl;
     image.alt = "menu dish";
-    anotherDiv.appendChild(description);
-    anotherDiv.appendChild(price);
+    childDiv.appendChild(description);
+    childDiv.appendChild(price);
+    anotherDiv.appendChild(childDiv);
     anotherDiv.appendChild(image);
     menuInfo.appendChild(anotherDiv);
 
