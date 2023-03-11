@@ -1,10 +1,14 @@
+import "../assets/contact.scss";
+import "../assets/normalize.css";
+
 const contactSection = function contactSection(mainElement) {
   const contact = document.createElement("div");
-
+  contact.classList.add("container");
   const heading = document.createElement("h1");
   heading.textContent = "Contact us:";
 
   const personInfo = document.createElement("div");
+  personInfo.classList.add("person-info");
   const smallHeading = document.createElement("h2");
   smallHeading.textContent = "Person";
   personInfo.appendChild(smallHeading);
